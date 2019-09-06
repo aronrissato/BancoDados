@@ -74,8 +74,10 @@
     <Compile Include="Models\Context.cs" />
     <Compile Include="Models\Produto.cs" />
     <Compile Include="Views\AlterarProduto.cs" />
+    <Compile Include="Views\BuscarCategoria.cs" />
     <Compile Include="Views\BuscarParteProduto.cs" />
     <Compile Include="Views\BuscarProduto.cs" />
+    <Compile Include="Views\CadastrarCategoria.cs" />
     <Compile Include="Views\CadastrarProduto.cs" />
     <Compile Include="Views\ListarProdutos.cs" />
     <Compile Include="Views\Program.cs" />

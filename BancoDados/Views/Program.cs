@@ -28,6 +28,8 @@ namespace Views.BancoDados
                 Console.WriteLine("4 - Buscar produto por parte do nome");
                 Console.WriteLine("5 - Alterar produto");
                 Console.WriteLine("6 - Remover produto");
+                Console.WriteLine("7 - Cadastrar categoria");
+                Console.WriteLine("8 - Buscar categoria por nome");
                 Console.WriteLine("0 - Sair");
                 Console.WriteLine("\nDigite uma opção:");
                 opcao = Convert.ToInt32(Console.ReadLine());
@@ -51,6 +53,12 @@ namespace Views.BancoDados
                         break;
                     case 6:
                         RemoverProduto.Renderizar();
+                        break;
+                    case 7:
+                        //RemoverProduto.Renderizar();
+                        break;
+                    case 8:
+                        BuscarCategoria.Renderizar();
                         break;
                     case 0:
                         Console.WriteLine("Saindo...");

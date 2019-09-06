@@ -8,5 +8,6 @@ namespace BancoDados.Views
 {
     class AlterarProduto
     {
+
     }
 }

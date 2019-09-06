@@ -12,11 +12,15 @@ namespace BancoDados.DAL
     {
         private static Context ctx = new Context();
 
-        public static Categoria
-            BuscarCategoriaPorNome(Categoria c)
+        public static Categoria CadastrarCategoria(Categoria c)
         {
-            return ctx.Categorias.FirstOrDefault(x => x.Nome.Equals(c.Nome));
+            return CadastrarCategoria(c);
         }
-            
+
+
+        public static Categoria BuscarCategoriaPorNome(Categoria c)
+        {
+            return ctx.Categorias.FirstOrDefault(x => x.Nome.Contains(c.Nome));
+        }         
     }
 }
